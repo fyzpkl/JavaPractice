@@ -13,7 +13,7 @@ Loop: repeated action
 					i < 10 ,  i >= 0
 
 			iterator: Co-related to the condition. runs long enough to make the condition false
-					i++, i++
+					i++, i--
 
 
 	while loop: iteration is not fixed. repeated If
