@@ -1,0 +1,42 @@
+Loop: repeated action
+
+	for loop: iteration is fixed
+
+			for( init; condition; iteration){
+				statements
+			}
+
+			initialization: starting point
+					int i = 5;
+
+			condition: ending point
+					i < 10 ,  i >= 0
+
+			iterator: Co-related to the condition. runs long enough to make the condition false
+					i++, i++
+
+
+	while loop: iteration is not fixed. repeated If
+
+			while(condition){
+				statements
+			}
+
+
+	do-while loop: iteration is not fixed
+
+			do{
+				statements
+			}while(condition);
+
+			at least gets executed once
+
+
+Nested Loop: loop inside a loop (inner & outer)
+
+		outer loop repeats the inner
+
+
+Branching statements:
+		break: exits the loop & switch
+		continue: skips the current iteration of the loop
