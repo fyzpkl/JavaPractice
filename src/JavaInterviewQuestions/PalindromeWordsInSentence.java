@@ -4,12 +4,15 @@ public class PalindromeWordsInSentence {
     public static void main(String[] args) {
         String text = "Hello my name is asdsa how are you olo";
         String [] str = text.split(" ");
-
+    try{
         for (String each : str) {
             if (isPalindrome(each)){
                 System.out.println(each + " is palindrome");
             }
         }
+    }catch (Exception e){
+        System.out.println("Wrong Data is given");
+    }
 
     }
 
