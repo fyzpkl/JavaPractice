@@ -10,7 +10,7 @@ public class StiwtchExample {
         System.out.println("give name");
         String gradeLevel = sc.nextLine();
 
-        System.out.println("gice age");
+        System.out.println("give age");
         int age = sc.nextInt();
             sc.nextLine();
         System.out.println("give name");
@@ -20,7 +20,6 @@ public class StiwtchExample {
         char grade ='B';
 
         switch(gradeLevel){
-
             case "A":
                 System.out.println("Excellent");
                 break;
@@ -31,7 +30,6 @@ public class StiwtchExample {
             default:
                 System.out.println("Fail");
                 break;
-
         }
 
     }

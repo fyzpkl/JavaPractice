@@ -1,5 +1,7 @@
 package day1;
 
+
+
 import java.util.Locale;
 
 public class StringExamples {
@@ -13,10 +15,10 @@ public class StringExamples {
 
         String str3 = new String("JavA");
 
-
+        str1.length();
         str2 ="aliaaaaasdasdasdasdasd12345678" ;
 
-        System.out.println(str2.repeat(5) );
+
 
 
 
