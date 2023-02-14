@@ -1,6 +1,6 @@
 package day4;
 
-public class BrenchingStatements {
+public class BranchingStatements {
     public static void main(String[] args) {
 
         String txt  = "Hello world";
