@@ -11,7 +11,8 @@ public class WhileLoopIntro {
 
         System.out.println("-----------------------------------------");
         int i =0;
-        while(i<5){ // repeated if
+
+        while(true){ // repeated if
             System.out.println("Wooden Spoon"); //
             if(i==3){
                 break;
