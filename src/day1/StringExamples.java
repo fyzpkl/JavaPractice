@@ -13,6 +13,8 @@ public class StringExamples {
         String str2 = "Java";
 
 
+        System.out.println(3+5+"hello");
+        System.out.println("hello"+(3+5));
         String str3 = new String("JavA");
 
         str1.length();

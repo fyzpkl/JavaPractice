@@ -6,6 +6,11 @@ public class Araba {
     int fiyat;
     int yil;
 
+
+
+
+
+
     public void setInfo(String marka, String renk, int fiyat, int yil){
         this.marka = marka;
         this.renk = renk;
